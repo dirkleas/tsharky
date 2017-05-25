@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 75.0, 218.0, 27.0 ],
-					"text" : "OSC-route /oscar"
+					"text" : "OSC-route /tsharky"
 				}
 
 			}

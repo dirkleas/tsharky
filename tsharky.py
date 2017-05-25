@@ -19,7 +19,7 @@ popen = subprocess.Popen(['tshark', '-l'], stdout=subprocess.PIPE)
 for traffic in iter(popen.stdout.readline, ''):
     traffic = traffic.decode('utf-8').strip()
     #print(traffic)
-    msg = osc_message_builder.OscMessageBuilder(address='/oscar')
+    msg = osc_message_builder.OscMessageBuilder(address='/tsharky')
     msg.add_arg(traffic, 's')
     msg = msg.build()
     osc.send(msg)
